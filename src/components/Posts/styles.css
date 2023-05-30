@@ -1,0 +1,9 @@
+.posts {
+    /*
+    Esta estilização é responsável por deixar todos os elementos em grade(grid)
+    Com um tamanho mínimo de 280px para cada elemento.
+    */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+  }
