@@ -7,7 +7,7 @@ export class TextInput extends Component {
         return (
             <div>
                 <input onChange={handleChange}
-                className="test-input"
+                className="text-input"
                 type="search" 
                 name=""
                 value={searchValue}
