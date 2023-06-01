@@ -46,7 +46,6 @@ class Home extends Component {
 
   handleChange = (event) => {
     const { value } = event.target;
-    console.log(event.target);
     this.setState({ searchValue: value })
   }
 
